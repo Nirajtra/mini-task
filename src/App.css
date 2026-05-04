@@ -1,0 +1,19 @@
+.comm-section {
+  height: 89vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/* center layout */
+.comm-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}

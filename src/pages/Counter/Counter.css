@@ -1,0 +1,47 @@
+/* container */
+.counter-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #f9fafb;
+    padding: 20px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* base button */
+.counter-wrap button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* minus */
+.counter-wrap button:first-child {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+/* counter */
+.counter-wrap button:nth-child(2) {
+    background: #111827;
+    color: #fff;
+    cursor: default;
+}
+
+/* plus */
+.counter-wrap button:last-child {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+/* hover */
+.counter-wrap button:not(:nth-child(2)):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}

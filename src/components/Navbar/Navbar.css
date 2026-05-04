@@ -1,0 +1,22 @@
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    /* max-width: 400px; */
+    margin-inline: auto;
+}
+
+li {
+    list-style-type: none;
+
+    a {
+        text-decoration: none;
+        transition: all 0.3 linear;
+        color: #000;
+
+        &.active {
+            text-decoration: underline;
+            color: #a437ff;
+        }
+    }
+}
